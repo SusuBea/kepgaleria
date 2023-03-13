@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+   
+}
+
+article img{
+    width: 100%;
+
+}
+
+section div img{
+    width: 100%;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+
+.formazas {
+background-color: blueviolet;
+border: 1px solid green;
+padding: 20px;
+
+}
+
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+
+}
+
+article div{
+    /* flex-basis: 25%; */
+    width: 33%;
+
+}
+
+article img{
+    width: 100%;
+}
+
